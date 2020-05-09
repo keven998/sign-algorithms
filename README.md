@@ -1,7 +1,5 @@
 # 简介
-##### 通过逆向Android app获取签名或加密算法。
-
-### App列表
+##### 逆向Android app获取签名或加密算法。
 
 #### 美拍
 ##### 版本-7.9.5
@@ -17,9 +15,9 @@
 
 #### 秒拍
 ##### 版本-7.2.68
-##### 一些参数生成方式
 ##### 2020.5.7 更新sign和response解密
-##### response解密调用libte.so的Decode方法，已集成在HttpSo项目中
+##### response解密
+##### 调用libte.so的Decode方法，已集成在HttpSo项目中
 ##### https://github.com/heyaug/HttpSo
 
 #### 小红书
@@ -27,6 +25,8 @@
 ##### url里的sign，听说sheild很难
 
 #### 抖音
-##### 版本-10.1.0
-##### 已解决gorgon和设备注册，xlog
+##### 版本-10.9.0
+##### 2020.5.9 从抖音10.9.0更新libcms.so
+##### 生成0404开头的gorgon
+##### 增加示例
 ##### https://github.com/heyaug/HttpSo
